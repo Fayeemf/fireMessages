@@ -9,9 +9,20 @@
 
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
-    <!--PASTE SNIPPET HERE-->
-
-
+    <!--PASTE SNIPPET HERE-->   
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBoDItLTNQvoFNiRsGj233WbzCSDcKgEME",
+    authDomain: "firemessages-f73f7.firebaseapp.com",
+    databaseURL: "https://firemessages-f73f7.firebaseio.com",
+    projectId: "firemessages-f73f7",
+    storageBucket: "firemessages-f73f7.appspot.com",
+    messagingSenderId: "1073526728609"
+  };
+  firebase.initializeApp(config);
+</script>
 
     <!--custom files-->
     <script src="lib/js/main.js" defer></script>
@@ -20,7 +31,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Fayeem's Messaging App</h1>
 
     <!--This div will be populated with messages-->
     <div class="allMessages">
